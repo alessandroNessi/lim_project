@@ -1,0 +1,87 @@
+/*SFONDO E MACROSTRUTTURA DELLA PAGINA*/
+body{
+  background-image: url("immagini/background.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  margin:4%;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+.corpo{
+  width: 60%;
+  padding: 50px;
+  margin: auto;
+  /* border: 3px solid white; */
+  border-radius: 25px;
+  background-color: rgba(0,0,0, 0.5);
+  color:white;
+}
+
+/*ALLINEAMENTO E MARGINI HEADER*/
+header{
+  text-align: center;
+  color: rgb(0,215,0);
+}
+header img{
+  resize: both;
+  width: 25%;
+}
+header h1{
+  margin: 2px;
+}
+
+/*DIMESIONE CENTRATURA BOTTONI E COLORE SFONDO NAV*/
+nav{
+  padding: 20px;
+  background-color: rgb(0,215,0);
+  text-align: center;
+}
+button{
+  margin:2px;
+  font-size: 25px;
+}
+
+/*CENTRATURA MARGINI E COLORI MAIN*/
+input[type=checkbox] {
+    transform: scale(2);/*INGRANDISCO LA CHECKBOX*/
+    margin: 5px;
+}
+main h2{
+  display: inline-block;
+}
+main>div{
+  margin-top: 30px;
+}
+main div  span:before{
+  content: ' \21A6';
+}
+main div p{
+  color: rgb(200,200,200);
+}
+
+
+/*COLORE E BARRA BATTERIA*/
+main div p.carica{
+  padding: 25px;
+  border-radius: 7px;
+}
+main #monopattino1 p.carica{
+    background-color: rgb(210, 190, 90);
+    width: 35%;
+}
+main #monopattino2 p.carica{
+    background-color: rgb(51, 225, 51);
+    width: 75%;
+}
+main #monopattino3 p.carica{
+    background-color: rgb(221, 52, 51);
+    width: 10%;
+}
+main p,h2{
+  margin: 2px;
+}
+
+/*CREDITI/FOOTER*/
+footer p{
+  display: none;
+}
